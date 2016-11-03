@@ -1,6 +1,5 @@
 rm(list = ls());gc()
 GetDateDiff = function(startDate, endDate) {
-<<<<<<< HEAD
   # Compute the date difference of the date
   # 
   # Args:
@@ -9,18 +8,12 @@ GetDateDiff = function(startDate, endDate) {
   # 
   # Returns:
   #   the date fifference
-=======
->>>>>>> 7e09c5176e20978cb3a4f9993089a755a82c8ae5
   suppressMessages(require(RCurl))
   is.holiday = function(date) {
     # Judge a date if "工作日"
     # 
     # Args:
-<<<<<<< HEAD
     #   date: A string, e.g. date = "2016-01-01" / "2016/01/01"
-=======
-    #   date: A string, e.g. date = "20160101" / "2016-01-01" / "2016/01/01"
->>>>>>> 7e09c5176e20978cb3a4f9993089a755a82c8ae5
     # 
     # Returns:
     #   The result of the date given is "工作日", "周末", "小长假"
